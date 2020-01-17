@@ -51,7 +51,8 @@ class Owner
     Dog.all.select do |dog|
       if dog.mood == "nervous" 
         mood = "happy"
-     end
+        binding.pry
+      end
     end
   end
 
