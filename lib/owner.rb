@@ -51,11 +51,17 @@ class Owner
     Dog.all.select do |dog|
       if dog.mood == "nervous" 
         dog.mood = "happy"
-        #binding.pry
       end
     end
   end
 
+  def feed_cats
+    Cat.all.select do |cat|
+      if cat.mood == "nervous"
+        cat.mood = "happy"
+      end
+    end
+  end
 
 
 end
