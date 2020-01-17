@@ -69,5 +69,9 @@ class Owner
     Dog.all.select {|dog| dog.mood = "nervous"}
     Dog.all.select {|dog| dog.owner = nil}
   end
+  
+  def list_pets
+    
+  end
 
 end
