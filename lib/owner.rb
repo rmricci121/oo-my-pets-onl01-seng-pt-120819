@@ -48,6 +48,6 @@ class Owner
   end
   
   def walk_dogs
-    
+    if mood = "nervous" 
   end
 end
