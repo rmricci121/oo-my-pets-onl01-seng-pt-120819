@@ -71,8 +71,8 @@ class Owner
   end
   
   def list_pets
-   self.buy_dog
-   self.buy_cat
+   self.buy_dog(name)
+   self.buy_cat(name)
       puts "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)"
   end
    
