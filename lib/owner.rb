@@ -40,7 +40,7 @@ class Owner
   end
   
   def buy_cat(name) 
-    @@all << Cat.owner(name)
+    @@all << Cat.name
   end
   
 end
