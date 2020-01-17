@@ -71,8 +71,7 @@ class Owner
   end
   
   def list_pets
-   buy_dog(name)
-   buy_cat(name)
+   
       puts "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)"
       binding.pry
   end
