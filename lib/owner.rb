@@ -71,10 +71,10 @@ class Owner
   end
   
   def list_pets
-  Cat.all.select {|cat| cat.count}
-  Dog.all.select {|dog| dog.count}
-  puts "I have #{dog.count} dog(s), and #{cat.count} cat(s)"
-end
+    Cat.all.select {|cat| cat.count}
+    Dog.all.select {|dog| dog.count}
+      puts "I have #{dog.count} dog(s), and #{cat.count} cat(s)"
+  end
    
   
 
